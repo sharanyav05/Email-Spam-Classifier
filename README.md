@@ -144,7 +144,36 @@ Email-Spam-Classifier/
       ├── confusion_matrix.png
       └── model_comparison.png
 ```
+# Project Overflow
+# 🔄 Project Workflow
 
+```mermaid
+flowchart TD
+
+A[📂 Load Dataset] --> B[🧹 Data Cleaning]
+B --> C[📊 Exploratory Data Analysis]
+C --> D[🔤 Text Preprocessing]
+
+D --> E[Lowercase Conversion]
+E --> F[Remove Punctuation]
+F --> G[Tokenization]
+G --> H[Remove Stopwords]
+H --> I[Stemming]
+
+I --> J[📈 TF-IDF Vectorization]
+J --> K[✂️ Train-Test Split]
+
+K --> L1[🤖 Naive Bayes]
+K --> L2[🤖 Logistic Regression]
+K --> L3[🌳 Random Forest]
+
+L1 --> M[📊 Model Evaluation]
+L2 --> M
+L3 --> M
+
+M --> N[📉 Model Comparison]
+N --> O[📧 Custom Spam Prediction]
+```
 ---
 
 # 🚀 Future Scope
