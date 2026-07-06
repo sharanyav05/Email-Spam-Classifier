@@ -137,9 +137,10 @@ Email-Spam-Classifier/
 ├── README.md
 ├── LICENSE
 └── images/
-      ├── spam_distribution.png
+      ├── spamv vs ham distribution.png
       ├── wordcloud_spam.png
       ├── wordcloud_ham.png
+      |-- heatmap.png
       ├── confusion_matrix.png
       └── model_comparison.png
 ```
